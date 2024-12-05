@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="Imagens/pequena.png" type="image/png">
+        
+        <source media="(min-width: 501px) and (max-width: 1000px)" srcset="Imagens/media.png" type="image/png">
+       
+        <img src="Imagens/grande.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Aúdio</h1>
+
+        <p>Aqui é um teste para verificar o aúdio. Torcemos para que dê certo!</p>
+        <p>Clique no aúdio abaixo para verificar a música.</p>
+
+        <audio src="MTG ENSURDECÊNCIA ESTELAR 1.0 (DJ FREST) (TIKTOK VERSION) (64).mp3" controls>
+        </audio>
+</body>
+</html>

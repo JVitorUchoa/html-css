@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50%;
+    background-attachment: fixed;
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    background-image:linear-gradient(to right, rgb(255, 232, 209), rgb(223, 173, 124));
+}
