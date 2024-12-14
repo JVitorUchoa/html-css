@@ -5,9 +5,41 @@
 
 header{
     background-color: black;
-    font-family: 'passion one';
     color: aliceblue;
     margin: 0px;
     padding: 40px 0px;
     text-align: center;
+}
+
+#titulo{
+    font-size: 50px;
+}
+
+header h1, #autor{
+    font-family: 'passion one';
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+}
+
+header p, div{
+    display: inline-block;
+    gap: 10px;
+}
+
+main p{
+    font-family: 'sriracha';
+    margin: 60px 20px;
+}
+
+#imagem_fundo{
+    background-image: url(imagens/girassol.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+#texto_em_imagem{
+    padding: 20px;
 }
